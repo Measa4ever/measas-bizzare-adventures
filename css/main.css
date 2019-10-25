@@ -176,11 +176,11 @@ html, body {
     text-transform: capitalize;
   }
   
-  .button-group .instagram, .button-group .youtube {
+  .button-group .workshop, .button-group .internship {
     display: inline-block;
   }
   
-  .button-group .instagram {
+  .button-group .workshop {
     margin-right: 18px;
   }
   
