@@ -176,11 +176,11 @@ html, body {
     text-transform: capitalize;
   }
   
-  .button-group .workshop, .button-group .internship {
+  .button-group .Workshop, .button-group .internship {
     display: inline-block;
   }
   
-  .button-group .workshop {
+  .button-group .Workshop {
     margin-right: 18px;
   }
   
