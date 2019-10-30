@@ -1,14 +1,14 @@
 <?php
-$to = 'measa.phann@workshopschool.org';
+
+if (isset($_POST['submit'])) {
 $name = $_POST['name'];
 $mailFrom = $_POST['mail'];
-$message = $_POST['message']; 
-$from = "From: ".$mailFrom;
- 
-// Sending email
-if(mail($to, $subject, $message)){
-    echo 'Your mail has been sent successfully.';
-} else{
-    echo 'Unable to send email. Please try again.';
+$message = $_POST['message'];
+
+$mailTo = "measa.phann@workshopschool.org";
+$headers = "From: ".$mailFrom;
+$txt = "You have received an e-mail from ".$name.".\n\n".$message;
+
+mail($mailTo, $subject, $txt, $headers);
+header("Location: index.php?mailsend");
 }
-?>
