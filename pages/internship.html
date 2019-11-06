@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inten Coming Soon</title>
+  <link rel="stylesheet" href="/css/internship.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="internship.html">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="internship.html">
+
+<div class="clear_header">
+  <div class="nav">
+    <ul class="menu-bar">
+      <li>Home</li>
+      <li>Blog</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+</div>
+
+<div class="wrapper">
+  <h1>Coming Soon<span class="dot"></span></h1>
+  
+  <div class="bgimg">
+    <div class="middle">
+      <hr>
+  <p id="demo" style="font-size: 30px"></p>
+    </div>
+  </div>
+  <div class="updates">
+    <p>Stay in tune for future updates!</p>
+  </div>
+ </div>
+
+ <!--Timer-->
+<script>
+
+  var countDownDate = new Date("Nov 7, 2019 00:00:00").getTime();
+  
+  var x = setInterval(function() {
+    var now = new Date().getTime();
+    
+    var now = new Date().getTime();
+    
+    var distance = countDownDate - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+   }
+  }, 1000);
+</script>
+<!-- partial -->
+  
+</body>
+</html>

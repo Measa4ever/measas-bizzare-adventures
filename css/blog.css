@@ -1,9 +1,37 @@
 body {
-    background-image: url(https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://hdwallsource.com/img/2017/9/animated-razer-logo-gif-wallpaper-59875-61665-hd-wallpapers.jpg);
     color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
   }
   
-  
+
+  *{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  .nav .menu-bar{
+    width: auto;
+    text-align: center;
+    box-shadow: 1px 2px 4px grey;
+  }
+
+  .menu-bar li{
+    list-style-position: none;
+    display: inline-block;
+    padding: 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+  }
+
+  .menu-bar li:hover{
+    background: gray;
+    color: black;
+  }
+
   .wrapper {
     position: absolute;
     left: 50%;
@@ -36,7 +64,7 @@ body {
   }
   
   .updates i {
-    color: #00091B;
+    color: #fff;
     background: #fff;
     height: 15px;
     width: 15px;

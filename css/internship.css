@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://thumbs.gfycat.com/GloomySkeletalAfricanbushviper-size_restricted.gif);
+    color: #fff;
+    background-size: cover;
+    width: 100%;  
+  }
+  
+  *{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  .nav .menu-bar{
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 2px 4px grey;
+  }
+
+  .menu-bar li{
+    list-style-position: none;
+    display: inline-block;
+    padding: 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+  }
+
+  .menu-bar li:hover{
+    background: gray;
+    color: black;
+  }
+
+  .wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    animation: fadeIn 1000ms ease;
+    -webkit-animation: fadeIn 1000ms ease;
+    
+  }
+  
+  h1 {
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: 100;
+    color: white
+  }
+  
+  p {
+    text-align: center;
+    margin: 18px;
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    
+  }
+  
+  .updates {
+    text-align: center;
+    
+  }
+  
+  .updates i {
+    color: #fff;
+    background: #fff;
+    height: 15px;
+    width: 15px;
+    padding: 13px;
+    margin: 0 10px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    transition: all 200ms ease;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .updates i:hover, .updates i:active {
+    color: #fff;
+    background: none;
+    cursor: pointer !important;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    text-decoration: none;
+    
+  }
+  
+  #demo{
+    font-weight: lighter;
+    word-spacing: 20px;
+  }
+  
+  .bgimg{
+    background: url(BGF.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    font-family: Prime;
+  }
+  
+  .middle{
+    position:abolute;
+    top: 50%;
+    left: 50%;
+    transform:translate (-50%, -50%);
+    text-align: center;
+  }
+  
+  hr{
+    margin: auto;
+    width: 80%;
+    border: 1.5px solid #fff;
+  }
